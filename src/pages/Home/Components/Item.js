@@ -13,7 +13,6 @@ const Item = ({ id, note, date,  deleteData, submittingStatus }) => {
           <p>{note}</p>
           <p>Date: {date}</p>
         </div>
-        <button onClick={deleteItem} >EDIT</button>
         <button onClick={deleteItem} className="remove">REMOVE</button>
 
       </div>
