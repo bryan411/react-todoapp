@@ -46,7 +46,6 @@ const Edit = ({ add, submittingStatus }) => {
       <input type="text" placeholder="What's the task today?" value={note} onChange={noteChange} />
       <p>Date：</p>
       <input type="date"  value={date} onChange={dateChange} />
-      <input type="text" placeholder="Edit your note" value={note} onChange={noteChange} />
       <button >EDIT</button>
       <button onClick={addItem} className="add">ADD</button>
     </div>
